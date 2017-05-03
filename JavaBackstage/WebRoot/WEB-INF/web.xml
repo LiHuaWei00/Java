@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Userquery</servlet-name>
+    <servlet-class>com.product.colloer.Userquery</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Userquerybutton</servlet-name>
+    <servlet-class>com.product.colloer.Userquerybutton</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommodityPage</servlet-name>
+    <servlet-class>com.product.colloer.CommodityPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommodityButton</servlet-name>
+    <servlet-class>com.product.colloer.CommodityButton</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommodityDelete</servlet-name>
+    <servlet-class>com.product.colloer.CommodityDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommoditySave</servlet-name>
+    <servlet-class>com.product.colloer.CommoditySave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommodityAdd</servlet-name>
+    <servlet-class>com.product.colloer.CommodityAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderPage</servlet-name>
+    <servlet-class>com.product.colloer.OrderPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderButton</servlet-name>
+    <servlet-class>com.product.colloer.OrderButton</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderDelete</servlet-name>
+    <servlet-class>com.product.colloer.OrderDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderSave</servlet-name>
+    <servlet-class>com.product.colloer.OrderSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cartquery</servlet-name>
+    <servlet-class>com.product.colloer.Cartquery</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cartbutton</servlet-name>
+    <servlet-class>com.product.colloer.Cartbutton</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Userquery</servlet-name>
+    <url-pattern>/servlet/Userquery</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Userquerybutton</servlet-name>
+    <url-pattern>/servlet/Userquerybutton</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommodityPage</servlet-name>
+    <url-pattern>/servlet/CommodityPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommodityButton</servlet-name>
+    <url-pattern>/servlet/CommodityButton</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommodityDelete</servlet-name>
+    <url-pattern>/servlet/CommodityDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommoditySave</servlet-name>
+    <url-pattern>/servlet/CommoditySave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommodityAdd</servlet-name>
+    <url-pattern>/servlet/CommodityAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderPage</servlet-name>
+    <url-pattern>/servlet/OrderPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderButton</servlet-name>
+    <url-pattern>/servlet/OrderButton</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDelete</servlet-name>
+    <url-pattern>/servlet/OrderDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderSave</servlet-name>
+    <url-pattern>/servlet/OrderSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cartquery</servlet-name>
+    <url-pattern>/servlet/Cartquery</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cartbutton</servlet-name>
+    <url-pattern>/servlet/Cartbutton</url-pattern>
+  </servlet-mapping>
+
+</web-app>
